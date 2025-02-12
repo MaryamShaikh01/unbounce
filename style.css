@@ -161,8 +161,8 @@ nav ul :nth-child(4)::after {
 .standard-width {
     width: calc(100% - 40%);
     margin: auto;
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .main-section-container {
