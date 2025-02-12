@@ -157,6 +157,10 @@ nav ul :nth-child(4)::after {
     background-color: white;
 }
 
+.dropdown-menu li a{
+    font-size: 22px;
+}
+
 /* Main Section Starts */
 .standard-width {
     width: calc(100% - 40%);
@@ -1108,7 +1112,13 @@ summary li::marker {
     .buttons{
         flex-direction: column;
     }
-
+    .dropdown-menu nav{
+        grid-column: span 2;
+    }
+    
+    .dropdown-menu a{
+        grid-column: span 2;
+    }
  
 }
 
@@ -1586,14 +1596,17 @@ summary li::marker {
         padding: 40px;
         background-color: white;
         width: 100%;
-        display: flex;
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        /* display: flex; */
+        /* flex-direction: column; */
         gap: 20px;
         color: pink;
         font-size: 20px;
-
     }
-
+.dropdown-menu nav{
+    grid-column: span 2;
+}
     input[type="checkbox"]:checked~div>ul {
         list-style-type: none;
     }
