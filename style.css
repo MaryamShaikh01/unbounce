@@ -1188,7 +1188,7 @@ summary li::marker {
     /* display: flex; */
 }
     .single-card img {
-        /* height: 250px; */
+        height: 250px;
         /* object-fit: cover; */
         object-position: top;
     }
