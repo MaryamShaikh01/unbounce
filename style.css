@@ -1016,7 +1016,7 @@ h3 {
     align-items: center;
 }
 
-.footer> :first-child {
+.footer > a img {
     margin-bottom: 50px;
 }
 
