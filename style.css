@@ -1108,6 +1108,8 @@ summary li::marker {
     .buttons{
         flex-direction: column;
     }
+
+ 
 }
 
 @media (min-width:576px) and (max-width:767px) {
@@ -1403,6 +1405,10 @@ summary li::marker {
 
     .benchmark-section .right-plan-img img {
         position: static;
+    }
+
+    .benchmark-section .left-plan-text .main-text-width{
+        padding-top: 50px;
     }
 
     .benchmark-section> :first-child {
